@@ -1,6 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
 body {
   margin: 0;
+  /* font-size: 10px; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -8,7 +10,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+
+  --primary-bg: #002D42;
+  --secondary-bg: #EFF1F3;
+
+  --bg-1: #EB9DA6;
+  --bg-2: #FF414D;
+  
+  --neutral: rgba(255, 255, 255, 1);
+  --neutral-lg: rgba(255, 255, 255, 0.7);
+  
+  --gradient-bg: linear-gradient(to bottom right, var(--bg-1), var(--bg-2));
+
+
+  --fs: 1rem;
+  --fs-l: 1.4rem;
+  --fs-xl: 2rem;
+  --fs-2xl: 3rem;
+  --fs-3xl: 4rem;
+
+  --spacing: 
 }

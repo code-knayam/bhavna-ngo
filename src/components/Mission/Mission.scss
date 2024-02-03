@@ -1,0 +1,30 @@
+.mission-container {
+	padding: 32px 32px 0;
+	background: var(--secondary-bg);
+	overflow: hidden;
+
+	.missions {
+		background: var(--gradient-bg);
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+		margin: 40px 32px 0;
+		
+		.mission {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 300px;
+			border-radius: 0;
+			transition: 400ms ease;
+
+			&:hover {
+				background: var(--primary-bg);
+				border-top-left-radius: 40px;
+				border-top-right-radius: 40px;
+				color: var(--neutral);
+				scale: 1.2;
+			}
+		}
+	}
+}

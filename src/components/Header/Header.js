@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Header() {
 	return (
-		<Navbar expand="lg" className="bg-body-tertiary">
+		<Navbar expand="lg" className="bg-body-tertiary navbar">
 			<Container>
 				<Navbar.Brand href="#home">
 					<img
@@ -16,7 +16,7 @@ function Header() {
 						className="d-inline-block align-top"
 					/>
 				</Navbar.Brand>
-				<Nav className="me-auto">
+				<Nav className="justify-content-end">
 					<Nav.Link href="#home">Home</Nav.Link>
 					<Nav.Link href="#features">Our Work</Nav.Link>
 					<Nav.Link href="#pricing">Media</Nav.Link>

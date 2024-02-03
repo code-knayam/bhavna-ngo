@@ -1,0 +1,9 @@
+.navbar {
+		background-color: #002D42 !important;
+		border-bottom: 1px solid var(--bg-1);
+
+		.navbar-nav {
+			--bs-nav-link-color: var(--neutral-lg);
+			--bs-nav-link-hover-color: var(--neutral);
+		}
+}
