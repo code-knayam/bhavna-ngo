@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.social-container {
+  padding: var(--spacing-6);
+  font-size: var(--fs-xl);
+
+  .icon {
+    font-size: var(--fs-xl);
+    color: var(--primary-bg-lg);
+    margin: 0 var(--spacing-3);
+  }
+}

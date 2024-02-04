@@ -1,4 +1,5 @@
-import "./App.css";
+import { Container } from "react-bootstrap";
+import "./App.scss";
 import Campaigns from "./components/Campaigns/Campaigns";
 import Donation from "./components/Donation/Donation";
 import Footer from "./components/Footer/Footer";
@@ -16,6 +17,16 @@ function App() {
 			<Campaigns />
 			<ImageCarousel />
 			<Donation />
+
+			<Container className="social-container">
+				Follow Us :
+				<span className="icon">
+					<i className="bi bi-facebook"></i>
+				</span>
+				<span className="icon">
+					<i class="bi bi-linkedin"></i>
+				</span>
+			</Container>
 			<Footer />
 		</div>
 	);

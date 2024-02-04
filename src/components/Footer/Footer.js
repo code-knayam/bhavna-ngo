@@ -35,7 +35,7 @@ function Footer() {
 					</Col>
 				</Row>
 			</Container>
-			<p className="copyright">Copyright 2024 Bhavna</p>
+			<p className="copyright">Copyright © 2024 Bhavna. All rights reserved.</p>
 		</footer>
 	);
 }
