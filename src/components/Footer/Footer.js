@@ -16,20 +16,24 @@ function Footer() {
 						<h6 className="brand-name">Bhavna, An intent to serve</h6>
 
 						<Row className="contact-row">
-							{/* <h6 className="contact-heading">Contact</h6> */}
-							<p>
+							<p className="contact">
 								<span className="icon">
 									<i class="bi bi-house-door-fill"></i>
 								</span>
 								<span className="label">
-									22 MIG, W block, Keshav Nagar, Kanpur , UP - 208014
+									Room no-1, 22 MIG, W block, Keshav Nagar, <br />
+									Kanpur , UP - 208014
 								</span>
 							</p>
-							<p>
+							<p className="contact">
 								<span className="icon">
 									<i class="bi bi-telephone-fill"></i>
 								</span>
-								<span className="label">+91-9651689753</span>
+								<span className="label">
+									+91-9651689753
+									<br />
+									bhavna.ngo@gmail.com
+								</span>
 							</p>
 						</Row>
 					</Col>

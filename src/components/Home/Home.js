@@ -9,7 +9,8 @@ function Home() {
 			<Container className="container">
 				<Col>
 					<p className="heading">
-						Discover what our foundation does with its influence
+						A group of friends driven by a desire to serve the society and
+						making it a better place to live for all
 					</p>
 					<Button className="shadow-lg">Explore our Work</Button>
 				</Col>

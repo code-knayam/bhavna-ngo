@@ -20,12 +20,24 @@ function App() {
 
 			<Container className="social-container">
 				Follow Us :
-				<span className="icon">
-					<i className="bi bi-facebook"></i>
-				</span>
-				<span className="icon">
-					<i class="bi bi-linkedin"></i>
-				</span>
+				<a
+					href="https://www.facebook.com/bhavna.ngo"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<span className="icon">
+						<i className="bi bi-facebook"></i>
+					</span>
+				</a>
+				<a
+					href="https://www.linkedin.com/company/bhavnawelfarefoundation/mycompany/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<span className="icon">
+						<i class="bi bi-linkedin"></i>
+					</span>
+				</a>
 			</Container>
 			<Footer />
 		</div>

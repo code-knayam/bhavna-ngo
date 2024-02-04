@@ -17,6 +17,11 @@
 	.contact-row {
 		margin-top: var(--spacing-4);
 		text-align: left;
+
+		.contact {
+			display: flex;
+		}
+
 		.contact-heading {
 			font-size: 1.4rem;
 			font-size: bold;
@@ -30,6 +35,7 @@
 			padding: var(--spacing-1) var(--spacing-2);
 			background: var(--bg-2);
 			border-radius: 8px;
+			height: max-content;
 		}
 		.label {
 			margin-left: var(--spacing-4);

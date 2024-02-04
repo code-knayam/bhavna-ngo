@@ -9,11 +9,16 @@ function Donation() {
 					<i class="bi bi-cash-coin"></i>
 				</span>
 				<h4> Make a Donation</h4>
-				<p>
-					Make sure your gift to Bhavna goes directly where its needed, without
-					delay, with a secure online donation
-				</p>
-				<Button className="shadow-lg">Donate Now</Button>
+				<p>पोषण - an attempt to save kids from malnutrition</p>
+				<Button className="shadow-lg">
+					<a
+						href="https://milaap.org/fundraisers/support-kids-731"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Donate Now
+					</a>
+				</Button>
 			</Container>
 		</div>
 	);

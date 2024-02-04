@@ -3,6 +3,13 @@
 	background: var(--secondary-bg);
 	overflow: hidden;
 
+			.value-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
 	.missions {
 		background: var(--gradient-bg);
 		border-top-left-radius: 40px;
@@ -17,6 +24,7 @@
 			height: 300px;
 			border-radius: 0;
 			transition: 200ms ease;
+
 
 			&:hover {
 				background: var(--primary-bg);
@@ -41,6 +49,7 @@
 			.heading {
 				margin-top: var(--spacing-3);
 				margin-bottom: 0;
+				font-weight: bold;
 			}
 		}
 	}
