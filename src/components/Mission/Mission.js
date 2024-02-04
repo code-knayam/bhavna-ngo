@@ -1,4 +1,4 @@
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./Mission.scss";
 
 function Mission() {
@@ -14,26 +14,31 @@ function Mission() {
 				</Row>
 				<Row className="missions">
 					<Col className="mission">
-						<Image></Image>
-						<p>residence</p>
+						<span className="icon shadow">
+							<i class="bi bi-backpack2"></i>
+						</span>
+						<p className="heading">residence</p>
 						<p>help children with residence</p>
 					</Col>
-
 					<Col className="mission">
-						<Image></Image>
-						<p>residence</p>
+						<span className="icon shadow">
+							<i class="bi bi-backpack2"></i>
+						</span>
+						<p className="heading">residence</p>
 						<p>help children with residence</p>
 					</Col>
-
 					<Col className="mission">
-						<Image></Image>
-						<p>residence</p>
+						<span className="icon shadow">
+							<i class="bi bi-backpack2"></i>
+						</span>
+						<p className="heading">residence</p>
 						<p>help children with residence</p>
 					</Col>
-
 					<Col className="mission">
-						<Image></Image>
-						<p>residence</p>
+						<span className="icon shadow">
+							<i class="bi bi-backpack2"></i>
+						</span>
+						<p className="heading">residence</p>
 						<p>help children with residence</p>
 					</Col>
 				</Row>

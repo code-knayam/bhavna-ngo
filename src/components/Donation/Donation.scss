@@ -1,0 +1,35 @@
+.donation-container {
+	height: 400px;
+	padding: 64px 84px;
+
+	.container {
+		border-radius: 40px;
+		background: var(--gradient-bg);
+		height: 100%;
+		box-sizing: border-box;
+		padding: var(--spacing-5) 0;
+
+		.icon {
+			background: var(--gradient-bg-2);
+			font-size: var(--fs-xl);
+			padding: var(--spacing-2) var(--spacing-3);
+			color: #fff;
+			border-radius: 16px;
+			border: 1px solid var(--neutral);
+		}
+		h4 {
+			margin-top: var(--spacing-5);
+		}
+		p {
+			color: var(--primary-bg-lg);
+		}
+
+		.btn {
+			margin-top: var(--spacing-2);
+			--bs-btn-bg: var(--primary-bg-lg);
+			--bs-btn-border-color: var(--primary-bg);
+			--bs-btn-hover-bg: var(--primary-bg);
+			padding: var(--spacing-2) var(--spacing-5);
+		}
+	}
+}

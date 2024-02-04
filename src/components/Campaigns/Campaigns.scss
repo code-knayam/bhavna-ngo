@@ -1,0 +1,8 @@
+.campaigns-container {
+		padding: var(--spacing-6);
+		display: flex;
+		justify-content: center;
+		.camp-col {
+			padding: var(--spacing-6) var(--spacing-5);
+		}
+}

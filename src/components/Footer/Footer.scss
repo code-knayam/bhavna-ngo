@@ -1,0 +1,43 @@
+.footer-container {
+	background: var(--secondary-bg);
+	padding: var(--spacing-6) var(--spacing-1);
+	
+	.col {
+		border-bottom: 1px solid var(--bg-2);
+	}
+	.brand-container {
+		.brand-logo {
+			width: 200px;
+			text-align: left;
+		}
+	}
+	.brand-name {
+		font-size: 2rem;
+	}
+	.contact-row {
+		margin-top: var(--spacing-4);
+		text-align: left;
+		.contact-heading {
+			font-size: 1.4rem;
+			font-size: bold;
+		}
+		p {
+			margin-top: var(--spacing-2);
+		}
+		.icon {
+			font-size: var(--fs-l);
+			color: var(--neutral);
+			padding: var(--spacing-1) var(--spacing-2);
+			background: var(--bg-2);
+			border-radius: 8px;
+		}
+		.label {
+			margin-left: var(--spacing-4);
+			font-size: var(--fs-nm);
+		}
+	}
+	.copyright {
+		padding-top: var(--spacing-2);
+		margin-bottom: 0;
+	}
+}

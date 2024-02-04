@@ -5,14 +5,14 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Header() {
 	return (
-		<Navbar expand="lg" className="bg-body-tertiary navbar">
+		<Navbar sticky="top" expand="lg" className="bg-body-tertiary navbar shadow">
 			<Container>
 				<Navbar.Brand href="#home">
 					<img
 						alt=""
-						src="/img/logo.svg"
-						width="30"
-						height="30"
+						src="https://firebasestorage.googleapis.com/v0/b/bhavna-ngo.appspot.com/o/logo.png?alt=media&token=f0ec8581-e15d-4a09-812c-fa3c5376e31d"
+						width="40"
+						height="40"
 						className="d-inline-block align-top"
 					/>
 				</Navbar.Brand>
