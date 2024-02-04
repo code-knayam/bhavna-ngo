@@ -18,9 +18,9 @@ function Header() {
 				</Navbar.Brand>
 				<Nav className="justify-content-end">
 					<Nav.Link href="#home">Home</Nav.Link>
-					<Nav.Link href="#features">Our Work</Nav.Link>
-					<Nav.Link href="#pricing">Media</Nav.Link>
-					<Nav.Link href="#pricing">About</Nav.Link>
+					<Nav.Link href="#features">Mission</Nav.Link>
+					<Nav.Link href="#pricing">Campaigns</Nav.Link>
+					<Nav.Link href="#pricing">Donation</Nav.Link>
 				</Nav>
 			</Container>
 		</Navbar>
