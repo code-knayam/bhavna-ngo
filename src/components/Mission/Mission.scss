@@ -3,12 +3,21 @@
 	background: var(--secondary-bg);
 	overflow: hidden;
 
-			.value-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-			}
+	.ngo-misssion {
+		margin-bottom: var(--spacing-5);
+
+		h3 {
+			font-weight: bold;
+		}
+
+		.value-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			gap: 2rem;
+		}
+	}
 
 	.missions {
 		background: var(--gradient-bg);
@@ -31,11 +40,21 @@
 				border-top-left-radius: 40px;
 				border-top-right-radius: 40px;
 				color: var(--neutral);
-				scale: 1.2;			
+				scale: 1.2;
 			}
 
 			&:hover .icon {
 				background: var(--gradient-bg-2);
+			}
+
+			&:hover .info {
+				display: unset;
+			}
+
+			.info {
+				display: none;
+				transition: 200ms ease;
+				color: var(--neutral-lg);
 			}
 
 			.icon {
@@ -44,8 +63,9 @@
 				padding: var(--spacing-2) var(--spacing-3);
 				color: #fff;
 				border-radius: 16px;
-				border: 1px solid var(--neutral);				
+				border: 1px solid var(--neutral);
 			}
+
 			.heading {
 				margin-top: var(--spacing-3);
 				margin-bottom: 0;

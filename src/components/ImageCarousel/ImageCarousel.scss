@@ -1,9 +1,12 @@
 .image-carousel-container {
-	padding: var(--spacing-6);
+	padding: var(--spacing-2);
 
 	.image-carousel {
+		border: 10px solid var(--primary-bg);
+		width: 900px;
 		border-radius: 40px;
 		overflow: hidden;
+		margin: auto;
 		.carousel-image {
 			border-radius: 40px;
 			height: 500px;

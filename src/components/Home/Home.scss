@@ -1,29 +1,32 @@
 .home {
-			background-image: var(--gradient-bg-2);
-	height: 600px;
+	background-image: var(--gradient-bg-2);
+	height: 640px;
 	padding: var(--spacing-6);
 
 	.container {
 		border-radius: 40px;
 		height: 100%;
 		// background-image: var(--gradient-bg);
-		background: url('https://picsum.photos/900/500');
+		background: url('https://firebasestorage.googleapis.com/v0/b/bhavna-ngo.appspot.com/o/home.jpeg?alt=media&token=b61713b1-2a2d-44e7-a0be-3c48eff9f18b');
 		background-size: cover;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
-		padding: var(--spacing-5);
+		justify-content: flex-end;
+		padding: var(--spacing-5) var(--spacing-5) var(--spacing-2);
+		background-position: 0% 30%;
 
 		.heading {
-			font-size: var(--fs-2xl);
+			font-size: var(--fs-xl);
 			color: var(--neutral);
-			text-transform: uppercase;
-			font-weight: bolder;
-			// text-align: left;
+			background-color: rgba(0,0,0,0.3);
+			border-radius: 12px;
+			padding: var(--spacing-2) var(--spacing-4);
+			margin: 0 var(--spacing-6);
 		}
 
 		.btn {
-			margin-top: var(--spacing-2);
+			margin-bottom: 120px;
 			--bs-btn-bg: var(--primary-bg-lg);
 			--bs-btn-border-color: var(--primary-bg);
 			--bs-btn-hover-bg: var(--primary-bg);

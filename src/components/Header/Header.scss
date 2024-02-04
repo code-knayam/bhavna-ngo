@@ -1,3 +1,11 @@
 .navbar {
 		background-color: var(--secondary-bg) !important;
 }
+.ngo-name {
+	font-family: 'Segoe Print';
+	text-transform: uppercase;
+	margin-left: var(--spacing-3);
+	font-size: 1.8rem;
+	color: var(--primary-bg);
+	font-weight: 900;
+}

@@ -15,6 +15,7 @@ function Header() {
 						height="40"
 						className="d-inline-block align-top"
 					/>
+					<span className="ngo-name">Bhavna Welfare Foundation</span>
 				</Navbar.Brand>
 				<Nav className="justify-content-end">
 					<Nav.Link href="#home">Home</Nav.Link>
